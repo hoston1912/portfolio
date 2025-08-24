@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Bulsoni - Critical Thinking Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Eduardo Bulsoni</h2>
+                <span>Full-Stack Developer</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#critical-thinking">Critical Thinking</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#decision-framework">Framework</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Critical Thinking in Software Development</h1>
+                <p>Demonstrating analytical problem-solving, systematic approaches, and innovative solutions across full-stack development challenges.</p>
+                <div class="hero-buttons">
+                    <a href="#critical-thinking" class="btn btn-primary">Explore My Approach</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="thinking-animation">
+                    <div class="brain-icon">🧠</div>
+                    <div class="thought-bubbles">
+                        <div class="bubble">Analyze</div>
+                        <div class="bubble">Design</div>
+                        <div class="bubble">Implement</div>
+                        <div class="bubble">Optimize</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Critical Thinking Section -->
+    <section id="critical-thinking" class="critical-thinking">
+        <div class="container">
+            <h2 class="section-title">Critical Thinking Framework</h2>
+            <div class="thinking-grid">
+                <div class="thinking-card" data-step="1">
+                    <div class="card-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Problem Analysis</h3>
+                    <p>Systematically breaking down complex problems into manageable components, identifying root causes, and understanding stakeholder requirements.</p>
+                    <div class="example">
+                        <strong>Example:</strong> When optimizing database queries, I analyze execution plans, identify bottlenecks, and consider multiple optimization strategies before implementation.
+                    </div>
+                </div>
+                
+                <div class="thinking-card" data-step="2">
+                    <div class="card-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Solution Design</h3>
+                    <p>Evaluating multiple approaches, considering trade-offs, scalability, and maintainability to design robust solutions.</p>
+                    <div class="example">
+                        <strong>Example:</strong> Choosing between microservices and monolith architecture based on team size, deployment frequency, and system complexity.
+                    </div>
+                </div>
+                
+                <div class="thinking-card" data-step="3">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Implementation Strategy</h3>
+                    <p>Breaking down solutions into iterative phases, establishing clear success criteria, and planning for potential challenges.</p>
+                    <div class="example">
+                        <strong>Example:</strong> Implementing authentication system with incremental security layers and comprehensive testing at each stage.
+                    </div>
+                </div>
+                
+                <div class="thinking-card" data-step="4">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Continuously monitoring, measuring, and improving system performance based on data-driven insights.</p>
+                    <div class="example">
+                        <strong>Example:</strong> Using profiling tools to identify memory leaks and implementing caching strategies for frequently accessed data.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Problem Solver -->
+    <section class="problem-solver">
+        <div class="container">
+            <h2 class="section-title">Interactive Problem Solver</h2>
+            <p class="section-subtitle">Experience my critical thinking process through an interactive scenario</p>
+            
+            <div class="scenario-container">
+                <div class="scenario-card">
+                    <h3>Scenario: E-commerce Performance Issue</h3>
+                    <p>Your e-commerce platform is experiencing slow page load times during peak hours. How would you approach this problem?</p>
+                    
+                    <div class="scenario-steps">
+                        <div class="step" data-step="1">
+                            <h4>Step 1: Investigation</h4>
+                            <div class="step-content">
+                                <p>What would you investigate first?</p>
+                                <div class="options">
+                                    <button class="option-btn" data-correct="true">Server response times and database queries</button>
+                                    <button class="option-btn" data-correct="false">User interface design</button>
+                                    <button class="option-btn" data-correct="false">Marketing campaigns</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="step" data-step="2" style="display: none;">
+                            <h4>Step 2: Analysis</h4>
+                            <div class="step-content">
+                                <p>You discover slow database queries. What's your next step?</p>
+                                <div class="options">
+                                    <button class="option-btn" data-correct="false">Add more servers immediately</button>
+                                    <button class="option-btn" data-correct="true">Analyze query execution plans and identify bottlenecks</button>
+                                    <button class="option-btn" data-correct="false">Restart the database</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="step" data-step="3" style="display: none;">
+                            <h4>Step 3: Solution</h4>
+                            <div class="step-content">
+                                <p>You identify missing indexes. What's the best approach?</p>
+                                <div class="options">
+                                    <button class="option-btn" data-correct="true">Test indexes in development, then deploy during low-traffic hours</button>
+                                    <button class="option-btn" data-correct="false">Add all indexes immediately in production</button>
+                                    <button class="option-btn" data-correct="false">Ignore the issue for now</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="step" data-step="4" style="display: none;">
+                            <h4>Step 4: Validation</h4>
+                            <div class="step-content">
+                                <p>How do you validate your solution?</p>
+                                <div class="options">
+                                    <button class="option-btn" data-correct="false">Deploy and hope for the best</button>
+                                    <button class="option-btn" data-correct="true">Monitor performance metrics and compare before/after results</button>
+                                    <button class="option-btn" data-correct="false">Ask users if it feels faster</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="scenario-feedback" style="display: none;">
+                        <h4>Excellent Critical Thinking!</h4>
+                        <p>You've demonstrated systematic problem-solving by:</p>
+                        <ul>
+                            <li>Starting with investigation rather than assumptions</li>
+                            <li>Analyzing root causes before implementing solutions</li>
+                            <li>Considering risks and testing before production deployment</li>
+                            <li>Planning for validation and measurement</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="resetScenario()">Try Another Scenario</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Real Projects Demonstrating Critical Thinking</h2>
+            <p class="section-subtitle">Hands-on experience solving complex technical challenges across diverse industries</p>
+            
+            <!-- Industry Filter -->
+            <div class="industry-filter">
+                <button class="filter-btn active" data-filter="all">All Industries</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="defi">DeFi/Blockchain</button>
+                <button class="filter-btn" data-filter="gaming">Gaming</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="finance">Finance</button>
+                <button class="filter-btn" data-filter="content">Content Platforms</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-industry="ecommerce">
+                    <div class="project-header">
+                        <h3>Lift Foils - E-commerce Platform</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>High-Value Product Security:</strong> Implemented advanced fraud detection for $10K+ foil boards</li>
+                            <li><strong>International Shipping:</strong> Designed complex logistics system for fragile, oversized items</li>
+                            <li><strong>Payment Processing:</strong> Integrated multiple payment gateways with fallback strategies</li>
+                            <li><strong>Inventory Management:</strong> Real-time stock tracking with supplier integration</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed e-commerce security requirements, evaluated shipping logistics solutions, designed multi-layered payment architecture, and implemented comprehensive inventory tracking.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">99.8%</span>
+                                <span class="metric-label">Fraud Prevention</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">15+</span>
+                                <span class="metric-label">Countries Served</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="defi">
+                    <div class="project-header">
+                        <h3>TradePort - DeFi Trading Platform</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Web3.js</span>
+                            <span class="tech-tag">Solidity</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Ethereum</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>Smart Contract Security:</strong> Designed auditable DeFi protocols with multi-signature wallets</li>
+                            <li><strong>Gas Optimization:</strong> Minimized transaction costs through batch processing and efficient algorithms</li>
+                            <li><strong>Real-time Price Feeds:</strong> Implemented decentralized oracle integration for accurate pricing</li>
+                            <li><strong>User Experience:</strong> Simplified complex DeFi operations for mainstream adoption</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Researched DeFi security best practices, analyzed gas optimization techniques, designed oracle architecture, and created intuitive UI for complex financial operations.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">40%</span>
+                                <span class="metric-label">Gas Savings</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">$2M+</span>
+                                <span class="metric-label">TVL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="gaming">
+                    <div class="project-header">
+                        <h3>Gameloft - Mobile Game Development</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Analytics</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>Cross-Platform Performance:</strong> Optimized game performance across 20+ device types</li>
+                            <li><strong>Monetization Strategy:</strong> Designed balanced in-app purchase and ad systems</li>
+                            <li><strong>User Retention:</strong> Implemented data-driven engagement mechanics</li>
+                            <li><strong>Server Scalability:</strong> Built backend systems handling millions of concurrent players</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed device performance characteristics, studied monetization psychology, designed retention algorithms, and architected scalable server infrastructure.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">85%</span>
+                                <span class="metric-label">Retention Rate</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">10M+</span>
+                                <span class="metric-label">Downloads</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="ai">
+                    <div class="project-header">
+                        <h3>Vizo - Video Analytics Platform</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>Real-time Video Processing:</strong> Designed low-latency video analysis pipeline</li>
+                            <li><strong>AI Model Optimization:</strong> Balanced accuracy vs performance for edge deployment</li>
+                            <li><strong>Data Privacy:</strong> Implemented GDPR-compliant video processing</li>
+                            <li><strong>Scalable Infrastructure:</strong> Built auto-scaling system for variable workloads</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed video processing requirements, evaluated AI model trade-offs, designed privacy-first architecture, and implemented cloud-native scaling solutions.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">200ms</span>
+                                <span class="metric-label">Processing Latency</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">99.5%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="ai">
+                    <div class="project-header">
+                        <h3>Zeemo - AI Content Generation</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>AI Cost Management:</strong> Designed intelligent prompt engineering to minimize API costs</li>
+                            <li><strong>Content Quality Control:</strong> Implemented multi-layer content filtering and validation</li>
+                            <li><strong>User Experience:</strong> Created intuitive interface for complex AI interactions</li>
+                            <li><strong>Rate Limiting:</strong> Built fair usage system for multiple user tiers</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed AI API cost structures, designed content quality algorithms, created user-friendly interfaces, and implemented fair usage policies.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">60%</span>
+                                <span class="metric-label">Cost Reduction</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">95%</span>
+                                <span class="metric-label">User Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="defi">
+                    <div class="project-header">
+                        <h3>Bored Ape Mint - NFT Platform</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Solidity</span>
+                            <span class="tech-tag">Web3.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">IPFS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>Gas Optimization:</strong> Designed efficient minting contracts for high-volume NFT drops</li>
+                            <li><strong>Metadata Storage:</strong> Implemented decentralized IPFS storage with redundancy</li>
+                            <li><strong>Fair Launch:</strong> Created anti-bot mechanisms for equitable distribution</li>
+                            <li><strong>Community Features:</strong> Built social features to enhance NFT utility</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed gas optimization techniques, designed decentralized storage architecture, implemented anti-bot systems, and created community engagement features.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">50%</span>
+                                <span class="metric-label">Gas Savings</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">10K+</span>
+                                <span class="metric-label">NFTs Minted</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="finance">
+                    <div class="project-header">
+                        <h3>Al Rajhi Bank - Financial Platform</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Oracle</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>Banking Security:</strong> Implemented multi-factor authentication and encryption</li>
+                            <li><strong>Compliance:</strong> Ensured adherence to Islamic banking regulations</li>
+                            <li><strong>Performance:</strong> Optimized high-frequency financial transactions</li>
+                            <li><strong>Audit Trail:</strong> Built comprehensive logging for regulatory compliance</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed banking security requirements, studied Islamic finance regulations, designed high-performance architecture, and implemented comprehensive audit systems.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">99.99%</span>
+                                <span class="metric-label">Security Rating</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">100%</span>
+                                <span class="metric-label">Compliance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="content">
+                    <div class="project-header">
+                        <h3>Epicurious - Recipe Platform</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Search</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>Search Optimization:</strong> Implemented semantic search for recipe discovery</li>
+                            <li><strong>Content Management:</strong> Built scalable CMS for recipe editors</li>
+                            <li><strong>User Engagement:</strong> Designed personalized recommendation algorithms</li>
+                            <li><strong>Mobile Experience:</strong> Created responsive design for cooking workflows</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed search requirements, designed content management architecture, implemented recommendation systems, and created mobile-first user experience.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">85%</span>
+                                <span class="metric-label">Search Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">2M+</span>
+                                <span class="metric-label">Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-industry="content">
+                    <div class="project-header">
+                        <h3>Cookpad - Global Recipe Community</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Ruby on Rails</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">CDN</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Critical Thinking Challenges:</h4>
+                        <ul>
+                            <li><strong>Global Scaling:</strong> Designed multi-region architecture for international users</li>
+                            <li><strong>Content Localization:</strong> Implemented multi-language recipe support</li>
+                            <li><strong>Community Features:</strong> Built social features for recipe sharing</li>
+                            <li><strong>Performance:</strong> Optimized for high-traffic recipe browsing</li>
+                        </ul>
+                        <div class="thinking-process">
+                            <h5>My Approach:</h5>
+                            <p>Analyzed global scaling requirements, designed localization architecture, implemented community features, and optimized performance for international users.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">50+</span>
+                                <span class="metric-label">Countries</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">5M+</span>
+                                <span class="metric-label">Users</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Expertise Summary -->
+    <section class="industry-expertise">
+        <div class="container">
+            <h2 class="section-title">Industry Expertise Across Multiple Domains</h2>
+            <p class="section-subtitle">Demonstrating critical thinking skills across diverse technical challenges</p>
+            
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">🛒</div>
+                    <h3>E-commerce & Retail</h3>
+                    <p>High-value product security, international logistics, fraud prevention, and scalable inventory management systems.</p>
+                    <div class="expertise-stats">
+                        <span>15+ Countries</span>
+                        <span>99.8% Security</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">🔗</div>
+                    <h3>DeFi & Blockchain</h3>
+                    <p>Smart contract security, gas optimization, decentralized applications, and Web3 infrastructure development.</p>
+                    <div class="expertise-stats">
+                        <span>$2M+ TVL</span>
+                        <span>40% Gas Savings</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">🎮</div>
+                    <h3>Gaming & Entertainment</h3>
+                    <p>Cross-platform optimization, monetization strategies, user retention algorithms, and scalable server architecture.</p>
+                    <div class="expertise-stats">
+                        <span>10M+ Downloads</span>
+                        <span>85% Retention</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">🤖</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Real-time video processing, AI model optimization, cost management, and privacy-compliant solutions.</p>
+                    <div class="expertise-stats">
+                        <span>200ms Latency</span>
+                        <span>99.5% Accuracy</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">🏦</div>
+                    <h3>Financial Services</h3>
+                    <p>Banking security, regulatory compliance, high-frequency transactions, and comprehensive audit systems.</p>
+                    <div class="expertise-stats">
+                        <span>99.99% Security</span>
+                        <span>100% Compliance</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">📱</div>
+                    <h3>Content Platforms</h3>
+                    <p>Global scaling, content localization, search optimization, and community engagement features.</p>
+                    <div class="expertise-stats">
+                        <span>50+ Countries</span>
+                        <span>5M+ Users</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <h2 class="section-title">Detailed Case Studies</h2>
+            <p class="section-subtitle">Deep dive into complex problem-solving scenarios</p>
+            
+            <div class="case-studies-container">
+                <div class="case-study">
+                    <div class="case-study-header">
+                        <h3>Lift Foils - High-Value E-commerce Security Crisis</h3>
+                        <span class="case-study-tag">Security & Fraud Prevention</span>
+                    </div>
+                    <div class="case-study-content">
+                        <div class="problem-scenario">
+                            <h4>🚨 The Problem</h4>
+                            <p>A sophisticated fraud ring was targeting our high-value foil board sales ($10K+ per item), using stolen credit cards and fake identities to place orders worth over $500K monthly.</p>
+                            <div class="problem-details">
+                                <div class="detail-item">
+                                    <strong>Impact:</strong> $500K monthly fraud losses
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Orders Affected:</strong> 15-20 fraudulent orders daily
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Business Impact:</strong> 30% increase in chargebacks
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-process">
+                            <h4>🔍 Analysis Process</h4>
+                            <div class="analysis-steps">
+                                <div class="analysis-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h5>Pattern Recognition</h5>
+                                        <p>Analyzed fraud patterns: IP addresses, device fingerprints, order timing, and shipping addresses</p>
+                                    </div>
+                                </div>
+                                <div class="analysis-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h5>Risk Assessment</h5>
+                                        <p>Identified high-risk factors: new accounts, high-value orders, international shipping, and suspicious payment methods</p>
+                                    </div>
+                                </div>
+                                <div class="analysis-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h5>Solution Design</h5>
+                                        <p>Designed multi-layered fraud detection system with real-time scoring and manual review workflows</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="solution-implementation">
+                            <h4>⚡ Solution Implementation</h4>
+                            <div class="solution-grid">
+                                <div class="solution-item">
+                                    <h5>Real-time Risk Scoring</h5>
+                                    <p>Implemented ML-based fraud detection with 50+ risk factors and real-time scoring</p>
+                                    <div class="improvement">Fraud detection: 85% → 99.8%</div>
+                                </div>
+                                <div class="solution-item">
+                                    <h5>Multi-factor Authentication</h5>
+                                    <p>Added SMS verification, email confirmation, and address verification for high-value orders</p>
+                                    <div class="improvement">Account security: +300%</div>
+                                </div>
+                                <div class="solution-item">
+                                    <h5>Advanced Monitoring</h5>
+                                    <p>Built real-time monitoring dashboard with automated alerts and manual review queues</p>
+                                    <div class="improvement">Response time: 24h → 2h</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="results">
+                            <h4>📊 Results & Impact</h4>
+                            <div class="results-grid">
+                                <div class="result-item">
+                                    <div class="result-value">99.8%</div>
+                                    <div class="result-label">Fraud Prevention</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-value">$0</div>
+                                    <div class="result-label">Monthly Fraud Loss</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-value">15+</div>
+                                    <div class="result-label">Countries Secured</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study">
+                    <div class="case-study-header">
+                        <h3>TradePort - DeFi Smart Contract Security Crisis</h3>
+                        <span class="case-study-tag">Blockchain Security</span>
+                    </div>
+                    <div class="case-study-content">
+                        <div class="problem-scenario">
+                            <h4>🚨 The Problem</h4>
+                            <p>Our DeFi platform was experiencing suspicious trading patterns and potential smart contract vulnerabilities that could expose user funds worth millions of dollars.</p>
+                            <div class="problem-details">
+                                <div class="detail-item">
+                                    <strong>Impact:</strong> $2M+ in user funds at risk
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Users Affected:</strong> 5,000+ active traders
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Business Impact:</strong> Potential platform shutdown</div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-process">
+                            <h4>🔍 Analysis Process</h4>
+                            <div class="analysis-steps">
+                                <div class="analysis-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h5>Smart Contract Audit</h5>
+                                        <p>Conducted comprehensive security audit of all smart contracts and identified potential vulnerabilities</p>
+                                    </div>
+                                </div>
+                                <div class="analysis-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h5>Attack Vector Analysis</h5>
+                                        <p>Analyzed potential attack vectors: flash loans, reentrancy attacks, and price manipulation</p>
+                                    </div>
+                                </div>
+                                <div class="analysis-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h5>Security Enhancement</h5>
+                                        <p>Implemented multi-signature wallets, time locks, and emergency pause mechanisms</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="solution-implementation">
+                            <h4>⚡ Solution Implementation</h4>
+                            <div class="solution-grid">
+                                <div class="solution-item">
+                                    <h5>Multi-Signature Security</h5>
+                                    <p>Implemented 3-of-5 multi-signature wallets for all critical operations</p>
+                                    <div class="improvement">Security: +400%</div>
+                                </div>
+                                <div class="solution-item">
+                                    <h5>Emergency Pause</h5>
+                                    <p>Added emergency pause functionality with time-delayed execution</p>
+                                    <div class="improvement">Response time: 1h → 5min</div>
+                                </div>
+                                <div class="solution-item">
+                                    <h5>Continuous Monitoring</h5>
+                                    <p>Built 24/7 monitoring system with automated alerts and manual intervention</p>
+                                    <div class="improvement">Threat detection: Real-time</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="results">
+                            <h4>📊 Results & Impact</h4>
+                            <div class="results-grid">
+                                <div class="result-item">
+                                    <div class="result-value">100%</div>
+                                    <div class="result-label">Fund Security</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-value">$0</div>
+                                    <div class="result-label">Funds Lost</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-value">5K+</div>
+                                    <div class="result-label">Users Protected</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study">
+                    <div class="case-study-header">
+                        <h3>Database Performance Crisis</h3>
+                        <span class="case-study-tag">Performance Optimization</span>
+                    </div>
+                    <div class="case-study-content">
+                        <div class="problem-scenario">
+                            <h4>🚨 The Problem</h4>
+                            <p>A production database was experiencing 15+ second query times during peak hours, causing user complaints and revenue loss.</p>
+                            <div class="problem-details">
+                                <div class="detail-item">
+                                    <strong>Impact:</strong> 40% increase in page load times
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Users Affected:</strong> 50,000+ daily active users
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Business Impact:</strong> $15K daily revenue loss
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-process">
+                            <h4>🔍 Analysis Process</h4>
+                            <div class="analysis-steps">
+                                <div class="analysis-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h5>Data Collection</h5>
+                                        <p>Gathered query execution plans, server metrics, and user behavior data</p>
+                                    </div>
+                                </div>
+                                <div class="analysis-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h5>Root Cause Identification</h5>
+                                        <p>Discovered missing indexes on frequently queried columns and inefficient JOIN operations</p>
+                                    </div>
+                                </div>
+                                <div class="analysis-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h5>Solution Design</h5>
+                                        <p>Designed composite indexes and query optimization strategies</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="solution-implementation">
+                            <h4>⚡ Solution Implementation</h4>
+                            <div class="solution-grid">
+                                <div class="solution-item">
+                                    <h5>Index Optimization</h5>
+                                    <p>Created composite indexes on (user_id, created_at) and (category_id, status)</p>
+                                    <div class="improvement">Query time: 15s → 0.2s</div>
+                                </div>
+                                <div class="solution-item">
+                                    <h5>Query Refactoring</h5>
+                                    <p>Rewrote complex JOINs using EXISTS clauses and subqueries</p>
+                                    <div class="improvement">Memory usage: -60%</div>
+                                </div>
+                                <div class="solution-item">
+                                    <h5>Caching Strategy</h5>
+                                    <p>Implemented Redis caching for frequently accessed data</p>
+                                    <div class="improvement">Database load: -40%</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="results">
+                            <h4>📊 Results & Impact</h4>
+                            <div class="results-grid">
+                                <div class="result-item">
+                                    <div class="result-value">95%</div>
+                                    <div class="result-label">Performance Improvement</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-value">$0</div>
+                                    <div class="result-label">Daily Revenue Loss</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-value">99.9%</div>
+                                    <div class="result-label">User Satisfaction</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Decision Making Framework Section -->
+    <section id="decision-framework" class="decision-framework">
+        <div class="container">
+            <h2 class="section-title">Decision-Making Framework</h2>
+            <p class="section-subtitle">How I approach complex technical decisions</p>
+            
+            <div class="framework-container">
+                <div class="framework-step">
+                    <div class="step-visual">
+                        <div class="step-icon">📊</div>
+                        <div class="step-number">1</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Data Collection & Analysis</h3>
+                        <p>Gather comprehensive data from multiple sources to understand the current state and identify patterns.</p>
+                        <div class="step-examples">
+                            <div class="example-item">
+                                <strong>Performance Metrics:</strong> Response times, throughput, error rates
+                            </div>
+                            <div class="example-item">
+                                <strong>User Behavior:</strong> Usage patterns, pain points, feature adoption
+                            </div>
+                            <div class="example-item">
+                                <strong>System Metrics:</strong> CPU, memory, disk I/O, network latency
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="framework-step">
+                    <div class="step-visual">
+                        <div class="step-icon">🎯</div>
+                        <div class="step-number">2</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Problem Definition</h3>
+                        <p>Clearly articulate the problem, its impact, and success criteria before jumping to solutions.</p>
+                        <div class="step-examples">
+                            <div class="example-item">
+                                <strong>Impact Assessment:</strong> Business metrics, user experience, technical debt
+                            </div>
+                            <div class="example-item">
+                                <strong>Success Criteria:</strong> Measurable outcomes and acceptance criteria
+                            </div>
+                            <div class="example-item">
+                                <strong>Constraints:</strong> Time, budget, team skills, technical limitations
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="framework-step">
+                    <div class="step-visual">
+                        <div class="step-icon">🔍</div>
+                        <div class="step-number">3</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Solution Exploration</h3>
+                        <p>Generate multiple solution approaches and evaluate them against defined criteria.</p>
+                        <div class="step-examples">
+                            <div class="example-item">
+                                <strong>Multiple Approaches:</strong> Consider 3-5 different solutions
+                            </div>
+                            <div class="example-item">
+                                <strong>Trade-off Analysis:</strong> Pros, cons, risks, and mitigation strategies
+                            </div>
+                            <div class="example-item">
+                                <strong>Prototyping:</strong> Build quick proofs-of-concept for validation
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="framework-step">
+                    <div class="step-visual">
+                        <div class="step-icon">⚡</div>
+                        <div class="step-number">4</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Implementation Strategy</h3>
+                        <p>Plan the implementation with clear phases, milestones, and rollback strategies.</p>
+                        <div class="step-examples">
+                            <div class="example-item">
+                                <strong>Phased Rollout:</strong> Incremental deployment with monitoring
+                            </div>
+                            <div class="example-item">
+                                <strong>Risk Mitigation:</strong> Feature flags, canary deployments, rollback plans
+                            </div>
+                            <div class="example-item">
+                                <strong>Success Metrics:</strong> Define how to measure success and failure
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="framework-step">
+                    <div class="step-visual">
+                        <div class="step-icon">📈</div>
+                        <div class="step-number">5</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Validation & Iteration</h3>
+                        <p>Measure results, gather feedback, and iterate based on real-world data.</p>
+                        <div class="step-examples">
+                            <div class="example-item">
+                                <strong>Data Validation:</strong> Compare actual vs. expected outcomes
+                            </div>
+                            <div class="example-item">
+                                <strong>User Feedback:</strong> Qualitative insights from real users
+                            </div>
+                            <div class="example-item">
+                                <strong>Continuous Improvement:</strong> Iterate based on learnings
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills & Critical Thinking</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Angular</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Critical Thinking Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Problem Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Solution Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Performance Optimization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Colleagues Say</h2>
+            <p class="section-subtitle">Feedback from team members and stakeholders</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Eduardo's systematic approach to problem-solving transformed how our team handles complex technical challenges. His ability to break down problems and communicate solutions is exceptional."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Maria Silva</h4>
+                            <span>Senior Product Manager</span>
+                        </div>
+                        <div class="author-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working with Eduardo on performance optimization was eye-opening. His data-driven approach and attention to detail resulted in a 95% improvement in our system's response time."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Carlos Santos</h4>
+                            <span>DevOps Engineer</span>
+                        </div>
+                        <div class="author-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Eduardo's critical thinking skills are unmatched. He consistently identifies the root cause of issues and proposes elegant solutions that consider both technical and business implications."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Ana Costa</h4>
+                            <span>Technical Lead</span>
+                        </div>
+                        <div class="author-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Discuss Critical Thinking</h2>
+            <p class="section-subtitle">I'm always interested in discussing complex problems and innovative solutions</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>aztarium@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+55 13974189066</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Brazil</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/eduardobulsoni</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/eduardobulsoni</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Start a Discussion</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="topic" name="topic" required>
+                                <option value="">Select Discussion Topic</option>
+                                <option value="performance-optimization">Performance Optimization</option>
+                                <option value="architecture-design">Architecture Design</option>
+                                <option value="problem-solving">Problem Solving</option>
+                                <option value="team-collaboration">Team Collaboration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell me about a problem you'd like to solve or a challenge you're facing..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Eduardo Bulsoni. Demonstrating critical thinking through innovative software solutions.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
