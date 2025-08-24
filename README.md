@@ -222,12 +222,4 @@ This portfolio is designed to be easily customizable. Feel free to:
 
 This portfolio template is available for personal and commercial use. Attribution is appreciated but not required.
 
-## 📞 Contact
-
-- **Email**: aztarium@gmail.com
-- **Phone**: +55 13974189066
-- **Location**: Brazil
-
----
-
 **Built with critical thinking and modern web technologies** 🚀
